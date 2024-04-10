@@ -1,0 +1,15 @@
+{
+  "name": "movies-dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-tables": "node ./src/db/createTables.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1595.0"
+  }
+}

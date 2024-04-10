@@ -1,0 +1,2 @@
+const DynamoDB = require('./configDynamo');
+
